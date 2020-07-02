@@ -1,5 +1,6 @@
 from roboter.views import console
 
+
 DEFAULT_ROBOT_NAME = "Robo"
 
 
@@ -35,6 +36,7 @@ class RestaurantRobot(Robot):
       return func(self)
     return wrapper
       
+      
   @_hello_decorator
   def ask_user_favorite(self):
     while True:
@@ -48,6 +50,7 @@ class RestaurantRobot(Robot):
       if restaurant:
         self.restaurant = restaurant
         break
+      
       
   @_hello_decorator
   def thank_you(self):
