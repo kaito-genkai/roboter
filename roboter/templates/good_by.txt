@@ -1,0 +1,4 @@
+$robot_name: $restaurantは私も大好きです！
+$robot_name: $user_nameさん、ありがとうございました。
+
+良い一日を。さようなら！
